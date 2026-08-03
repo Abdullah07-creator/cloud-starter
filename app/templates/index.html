@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud DevOps Notes App</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f6f9; }
+        h1 { color: #2c3e50; }
+        ul { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        li { padding: 10px 0; border-bottom: 1px solid #eee; list-style: none; }
+    </style>
+</head>
+<body>
+    <h1>Cloud DevOps Starter: Notes Application</h1>
+    <h3>Current Notes:</h3>
+    <ul>
+        {% for note in notes %}
+            <li> {{ note }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

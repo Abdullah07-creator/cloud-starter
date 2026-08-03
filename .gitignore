@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+__pycache__/
+*.pyc
+venv/
+.env
+*.log
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+EOF
